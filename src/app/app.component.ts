@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core'; // 引入jsmind.js文件
-import * as jsMind from './jsmind/js/jsmind.js';
+import * as jsMind from 'jsmind';
 // jsMind的设置参数
 const options = {
   container: 'jsmind_container',
